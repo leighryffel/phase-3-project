@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.allApp{
+  font-family: 'Courier New', Courier, monospace;
+}
+a:link {
+  color: #e8daff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  zoom: 105%
+}
+
+.leighButton {
+  background-color: #794aff;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;  
+  border-radius: 5px;
+  margin-left: 7px;
+}
+
+.marqueeDiv{
+  background: #e8daff;
+}
+
+body{
+  background: #eee;
+}
+
+.news{
+  width: 160px
+}
+
+.news-scroll a{
+  text-decoration:solid
+}
+
+.dot{
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px !important;
+  background-color: rgb(127, 207, 23);
+  border-radius: 50%;
+  display: inline-block
 }
