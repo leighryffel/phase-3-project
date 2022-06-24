@@ -8,9 +8,11 @@ function CommentCard({ comment, id, change, setChange }) {
   }
 
   return (
-    <p>
-      🗣️ {comment} <button onClick={handleDeleteClick}>X</button>
-    </p>
+    <div>
+      <p>
+        🗣️ {comment} <button onClick={handleDeleteClick}>X</button>{" "}
+      </p>
+    </div>
   );
 }
 

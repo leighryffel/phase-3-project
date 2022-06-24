@@ -14,7 +14,7 @@ function SongEntry({ song, change, setChange }) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(updateSong),
-    }).then(() => setChange(!change))
+    }).then(() => setChange(!change));
   }
 
   return (

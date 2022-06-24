@@ -1,15 +1,18 @@
 import NavBar from "./NavBar";
-import StatsMenu from "./StatsMenu";
+import Ticker from "./Ticker";
 import AlbumList from "./AlbumList";
 import FunBar from "./FunBar";
+import React, { useState } from "react";
 
 function App() {
+  const [change, setChange] = useState(false);
+
   return (
     <div className="allApp">
       <div>
         <NavBar />
-        <StatsMenu />
-        <AlbumList />
+        <Ticker change={change} />
+        <AlbumList change={change} setChange={setChange} />
       </div>
       <div>
         <FunBar />

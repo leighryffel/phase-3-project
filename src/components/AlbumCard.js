@@ -23,7 +23,9 @@ function AlbumCard({
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={album_art} alt={title} />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title>
+          <strong>{title}</strong>
+        </Card.Title>
         <Card.Text>Released: {released_in}</Card.Text>
         <Card.Text>Genre: {genre}</Card.Text>
         <Card.Text>Leigh's Rating: {"⭐ ".repeat(rating)}</Card.Text>

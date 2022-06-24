@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import AlbumCard from "./AlbumCard";
 import { CardGroup } from "react-bootstrap";
 
-function AlbumList() {
+function AlbumList({ change, setChange }) {
   const [albums, setAlbums] = useState([]);
-  const [change, setChange] = useState(false);
 
   useEffect(() => {
     fetch("http://localhost:9292/albums")

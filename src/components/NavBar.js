@@ -13,7 +13,7 @@ function NavBar() {
             height="30"
             className="d-inline-block align-top"
           />{" "}
-          Harry Styles SuperFan Site
+          WILD FOR STYLES: A Harry Styles Fansite
         </Navbar.Brand>
         <ButtonGroup>
           <button className="leighButton">
@@ -24,7 +24,7 @@ function NavBar() {
           </button>
           <button className="leighButton">
             {" "}
-            <a target="_blank" href="google.com">
+            <a target="_blank" href="https://shopus.hstyles.co.uk/">
               BUY MERCH
             </a>
           </button>

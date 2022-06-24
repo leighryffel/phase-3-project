@@ -27,14 +27,8 @@ function CommentForm({ album_id, change, setChange }) {
         value={comment}
         placeholder="Add a comment..."
         className="input-text"
-      />
-      <br></br>
-      <input
-        type="submit"
-        name="submit"
-        value="Post Comment"
-        className="submit"
-      />
+      />{" "}
+      <input type="submit" name="submit" value="Post" className="submit" />
     </form>
   );
 }
