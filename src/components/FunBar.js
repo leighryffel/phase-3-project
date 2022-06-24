@@ -28,7 +28,7 @@ function FunBar() {
         />
         <Carousel.Caption>
           <h2>
-            Harry Styles Is a Rock God and a Gentleman on <em>Fine Line</em>
+            "Harry Styles Is a Rock God and a Gentleman on <em>Fine Line</em>"
           </h2>
           <br></br>
           <h3>Rolling Stone Mag</h3>
