@@ -12,17 +12,18 @@ function Ticker({ change }) {
 
   return (
     <div className="marqueeDiv">
-      {hotSong ?
-      <Marquee
-        className="news-scroll"
-        pauseOnHover="true"
-        speed="130"
-        style={{ fontSize: "2em", color: "#0b0074" }}
-      >
-        🔥 HARRY FANS AGREE - HIS HOTTEST SONG IS {hotSong.title.toUpperCase()}, FROM THE ALBUM {hotSong.album.title.toUpperCase()}! 🔥
-      </Marquee>
-      :
-      null}
+      {hotSong ? (
+        <Marquee
+          className="news-scroll"
+          pauseOnHover="true"
+          speed="130"
+          style={{ fontSize: "2em", color: "#0b0074" }}
+        >
+          🔥 FANS EVERYWHERE AGREE - HARRY'S HOTTEST SONG IS{" "}
+          {hotSong.title.toUpperCase()}, FROM THE ALBUM{" "}
+          {hotSong.album.title.toUpperCase()}! 🔥
+        </Marquee>
+      ) : null}
     </div>
   );
 }
